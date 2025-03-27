@@ -108,7 +108,7 @@ int main() {
     printf("==========================\n");
     printf("\nPilihan Anda:  ");
     scanf("%d", &pilihan);
-    getchar(); // Buang '\n' agar tidak mengganggu fgets()scanf("%d", &pilihan);
+    getchar(); // Buang '\n' agar tidak mengganggu fgets();
     
     switch (pilihan) {
 
